@@ -42,18 +42,19 @@ src/
 ├── main.ts                             # Bootstrap with standalone APIs
 └── styles.css                          # Global + Bootstrap styles
 
+
 ## 🧑‍💻 Technologies Used
 
-- **Angular 19** – Frontend framework (with standalone components)
-- **Angular Material** – UI component library
-- **Bootstrap 5** – Layout and utility styling
-- **Reactive Forms** – Form handling and validation
-- **ngx-toastr** – Toast notifications for success/error messages
-- **TypeScript** – Static typing and modern JS features
-- **ESBuild (via Angular CLI)** – Fast build and bundling
+| Technology          | Description                                             |
+|---------------------|---------------------------------------------------------|
+| **Angular 19**      | Frontend framework (with standalone components)         |
+| **Angular Material**| UI component library                                    |
+| **Bootstrap 5**     | Layout and utility styling                              |
+| **Reactive Forms**  | Form handling and validation                            |
+| **ngx-toastr**      | Toast notifications for success/error messages          |
+| **TypeScript**      | Static typing and modern JS features                    |
+| **ESBuild (Angular CLI)** | Fast build and bundling via Angular tooling      |
 
-
----
 
 **🛠️ Setup Instructions**
 1. Clone the repo
