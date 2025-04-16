@@ -1,59 +1,112 @@
-# Ng19App
+# 🛍️ Angular 19 Standalone Product Management App
 
-This project was generated using [Angular CLI](https://github.com/angular/angular-cli) version 19.2.6.
+This is a **practice Angular 19 application** using **standalone components**, **Material UI**, **Reactive Forms**, and **TypeScript best practices**. It provides a simple **CRUD** interface for managing products, including **form validation**, **edit/update functionality**, and **toastr notifications**.
 
-## Development server
+---
 
-To start a local development server, run:
+## 🚀 Features
 
-```bash
-ng serve
-```
+- ✅ Built using **Angular 19 standalone components**
+- ✅ Uses **Reactive Forms** with validation
+- ✅ Material UI (Angular Material) for clean UX
+- ✅ Bootstrap styling integration
+- ✅ `ngx-toastr` for success/error notifications
+- ✅ Modular, scalable architecture
+- ✅ No NgModules — purely standalone
 
-Once the server is running, open your browser and navigate to `http://localhost:4200/`. The application will automatically reload whenever you modify any of the source files.
+---
 
-## Code scaffolding
-
-Angular CLI includes powerful code scaffolding tools. To generate a new component, run:
-
-```bash
-ng generate component component-name
-```
-
-For a complete list of available schematics (such as `components`, `directives`, or `pipes`), run:
+## 📂 Project Structure
 
 ```bash
-ng generate --help
-```
+src/
+├── app/
+│   ├── app.component.ts
+│   ├── app.component.html
+│   ├── data/
+│   │   ├── mock-products.ts                # Mock data
+│   ├── features/  
+│   │   ├── product/ 
+│   │   │   ├── models/
+│   │   │   │   ├── product.model.ts        
+│   │   │   ├── pages/
+│   │   │   │   ├── product/
+│   │   │   │   │   ├── product.component.html        
+│   │   │   │   │   ├── product-form.component.ts     # Parent: Product list
+│   │   │   │   ├── product-form/
+│   │   │   │   │   ├── product-form.component.html       
+│   │   │   │   │   ├── product-form.component.ts     # Child: Reactive Form
+│   │   │   ├── services/
+│   │   │   │   └── product.service.ts          # In-memory CRUD logic
+├── index.html/
+├── main.ts                             # Bootstrap with standalone APIs
+└── styles.css                          # Global + Bootstrap styles
 
-## Building
+## 🧑‍💻 Technologies Used
 
-To build the project run:
+- **Angular 19** – Frontend framework (with standalone components)
+- **Angular Material** – UI component library
+- **Bootstrap 5** – Layout and utility styling
+- **Reactive Forms** – Form handling and validation
+- **ngx-toastr** – Toast notifications for success/error messages
+- **TypeScript** – Static typing and modern JS features
+- **ESBuild (via Angular CLI)** – Fast build and bundling
 
-```bash
-ng build
-```
 
-This will compile your project and store the build artifacts in the `dist/` directory. By default, the production build optimizes your application for performance and speed.
+---
 
-## Running unit tests
+**🛠️ Setup Instructions**
+1. Clone the repo
+git clone https://github.com/your-username/product-app-angular19.git
+cd product-app-angular19
 
-To execute unit tests with the [Karma](https://karma-runner.github.io) test runner, use the following command:
+2. Install dependencies
+npm install
 
-```bash
-ng test
-```
+3. Run the app
+npm start
 
-## Running end-to-end tests
+4. Visit: http://localhost:4200
 
-For end-to-end (e2e) testing, run:
+---
 
-```bash
-ng e2e
-```
+**📸 UI Preview**
 
-Angular CLI does not come with an end-to-end testing framework by default. You can choose one that suits your needs.
+![image](https://github.com/user-attachments/assets/679d1176-099c-4d1e-b0a2-9ff4381c6536)
 
-## Additional Resources
+---
 
-For more information on using the Angular CLI, including detailed command references, visit the [Angular CLI Overview and Command Reference](https://angular.dev/tools/cli) page.
+**🧪 Planned Enhancements**
+
+Add unit tests using Jest
+Add filtering/searching
+Integrate with backend (Node.js)
+Use signals for state management (Angular 17+)
+Add authentication
+
+---
+
+**🧠 Learnings**
+
+- Standalone components streamline Angular dev
+- inject() simplifies service consumption
+- Angular Material + Bootstrap can coexist well
+- Toasts enhance user experience in CRUD
+- Observable, RxJs
+
+---
+
+**📌 Important Notes**
+
+The project uses inject() instead of constructor DI for services
+Make sure @angular/animations is installed if using ngx-toastr
+Style conflicts between Bootstrap and Material can be managed via utility classes (mat-elevation, margins, etc.)
+
+---
+
+**📃 License**
+This project is for learning purposes only.
+
+---
+
+Happy Coding! 🎯
