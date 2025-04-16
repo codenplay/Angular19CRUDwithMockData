@@ -45,16 +45,32 @@ src/
 
 ## 🧑‍💻 Technologies Used
 
-| Technology          | Description                                             |
-|---------------------|---------------------------------------------------------|
-| **Angular 19**      | Frontend framework (with standalone components)         |
-| **Angular Material**| UI component library                                    |
-| **Bootstrap 5**     | Layout and utility styling                              |
-| **Reactive Forms**  | Form handling and validation                            |
-| **ngx-toastr**      | Toast notifications for success/error messages          |
-| **TypeScript**      | Static typing and modern JS features                    |
-| **ESBuild (Angular CLI)** | Fast build and bundling via Angular tooling      |
+| Technology              | Description                                     |
+|-------------------------|-------------------------------------------------|
+| **Angular 19**           | Frontend framework (with standalone components) |
+| **Angular Material**     | UI component library                           |
+| **Bootstrap 5**          | Layout and utility styling                     |
+| **Reactive Forms**       | Form handling and validation                   |
+| **ngx-toastr**           | Toast notifications for success/error messages |
+| **TypeScript**           | Static typing and modern JS features           |
+| **ESBuild (via Angular CLI)** | Fast build and bundling                  |
 
+---
+
+## 🛠️ Installation & Setup
+
+### Prerequisites
+
+Make sure you have the following tools installed:
+- **Node.js**: [Install Node.js](https://nodejs.org/)
+- **npm**: Comes with Node.js
+
+### Steps
+
+1. Clone the repository:
+   ```bash
+   git clone <repository_url>
+   cd <project_directory>
 
 **🛠️ Setup Instructions**
 1. Clone the repo
