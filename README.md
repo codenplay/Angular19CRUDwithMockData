@@ -45,21 +45,29 @@ src/
 
 ## 🧑‍💻 Technologies Used
 
-| Technology          | Description                                             |
-|---------------------|---------------------------------------------------------|
-| **Angular 19**      | Frontend framework (with standalone components)         |
-| **Angular Material**| UI component library                                    |
-| **Bootstrap 5**     | Layout and utility styling                              |
-| **Reactive Forms**  | Form handling and validation                            |
-| **ngx-toastr**      | Toast notifications for success/error messages          |
-| **TypeScript**      | Static typing and modern JS features                    |
-| **ESBuild (Angular CLI)** | Fast build and bundling via Angular tooling      |
+| Technology              | Description                                     |
+|-------------------------|-------------------------------------------------|
+| **Angular 19**           | Frontend framework (with standalone components) |
+| **Angular Material**     | UI component library                           |
+| **Bootstrap 5**          | Layout and utility styling                     |
+| **Reactive Forms**       | Form handling and validation                   |
+| **ngx-toastr**           | Toast notifications for success/error messages |
+| **TypeScript**           | Static typing and modern JS features           |
+| **ESBuild (via Angular CLI)** | Fast build and bundling                  |
 
+---
 
-**🛠️ Setup Instructions**
+## 📂 Project Structure
+
+```bash
+
+## 🛠️ Setup Instructions
+
 1. Clone the repo
-git clone https://github.com/your-username/product-app-angular19.git
-cd product-app-angular19
+
+```bash
+git clone https://github.com/codenplay/Angular19CRUDwithMockData.git
+cd Angular19CRUDwithMockData
 
 2. Install dependencies
 npm install
@@ -69,13 +77,18 @@ npm start
 
 4. Visit: http://localhost:4200
 
----
 
-**📸 UI Preview**
+
+
+### 📸 UI Preview
+
+Below is a preview of the application's user interface:
 
 ![image](https://github.com/user-attachments/assets/679d1176-099c-4d1e-b0a2-9ff4381c6536)
 
+
 ---
+
 
 **🧪 Planned Enhancements**
 
